@@ -1,0 +1,14 @@
+#1. To create a project using Vite
+     npm create vite@latest
+This would ask for project name, frameworks and a lot of other info. For more details refer to https://flaviocopes.com/vite-react-app/
+
+#2. starting this app 
+    npm run dev  ( script tag in package.json => npm run vite)
+
+#3. Extensions and Tools
+===========================
+ES7+ React Redux React native sn   
+-- Install this plugin and then type rafce ( shortcut for React Arrow Function Components Export)
+
+React Developer Tools ( Plugin for Inspecting and Analyzing react apps)
+
