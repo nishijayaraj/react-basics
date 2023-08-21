@@ -11,6 +11,8 @@ function ListGroup() {
 
   const handleClick = (event: MouseEvent) => console.log(event);
 
+  //Hooks
+  // const [stateVariable, updaterFunction] =usrSate(initialVariableValue)
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
