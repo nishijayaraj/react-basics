@@ -7,10 +7,7 @@ interface Props {
   heading: string;
 }
 
-function ListGroup(props: Props) {
-  const items = props.items;
-  const heading = props.heading;
-
+function ListGroup({ items, heading }: Props) {
   const getMessage = () => {
     return items.length === 0 ? <p>No item found</p> : null;
   };
